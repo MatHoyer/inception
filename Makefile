@@ -14,8 +14,8 @@ clean:
 	docker network rm inception
 
 fclean: clean
-	@sudo rm -rf /home/yatang/data/mariadb/*
-	@sudo rm -rf /home/yatang/data/wordpress/*
+	@sudo rm -rf /home/mhoyer/data/mariadb/*
+	@sudo rm -rf /home/mhoyer/data/wordpress/*
 	@docker system prune -af
 
 re: fclean all
