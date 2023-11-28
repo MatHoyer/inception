@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -eux
 
 service mysql start;
 

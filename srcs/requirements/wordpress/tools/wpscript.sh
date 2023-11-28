@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -eux
 
 cd /var/www/html/wordpress
 
