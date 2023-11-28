@@ -24,6 +24,6 @@ EXPOSE 9000
 COPY ./tools/wpscript.sh ./
 RUN chmod +x ./wpscript.sh
 
-COPY ./tools/www.conf /etc/php/7.3/fpm/pool.d/www.conf
+COPY ./conf/www.conf /etc/php/7.3/fpm/pool.d/www.conf
 
 ENTRYPOINT ["bash", "./wpscript.sh"]
