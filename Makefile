@@ -5,9 +5,7 @@ all:
 	docker compose -f ./srcs/docker-compose.yml up -d
 
 logs:
-	docker logs wordpress
-	docker logs mariadb
-	docker logs nginx
+	docker compose -f ./srcs/docker-compose.yml logs
 
 clean:
 	docker container stop nginx mariadb wordpress
