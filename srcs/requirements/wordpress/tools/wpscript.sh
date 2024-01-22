@@ -1,8 +1,6 @@
 #!/bin/bash
 #set -eux
 
-rm -rf wp-config.php
-
 if ! [ -f "wp-config.php" ];then
 
 wp config create --allow-root --dbname=${SQL_DATABASE} \
