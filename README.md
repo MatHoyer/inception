@@ -1,4 +1,4 @@
-.env
+.env in the src/ folder:
 ```
 DOMAIN_NAME=
 
